@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  get "/states" => "states#index"
 
-  get "/states/:abbrevation" => "states#show"
+  get "/states" => "states#index"
+  
+  get "/states/:code" => "states#show"
+
 end
