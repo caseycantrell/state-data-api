@@ -1,3 +1,3 @@
 class Abbreviation < ApplicationRecord
-  belongs_to :states
+  belongs_to :state
 end

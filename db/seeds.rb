@@ -1,4 +1,4 @@
-require 'csv'
+# require 'csv'
 
 # CSV.foreach(Rails.root.join('lib/abbreviations.csv'), headers: true) do |row|
   
