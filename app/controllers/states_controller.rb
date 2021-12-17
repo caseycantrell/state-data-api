@@ -6,7 +6,7 @@ class StatesController < ApplicationController
   end
 
   def show
-    abbreviation = Abbreviation.find_by(code: params[:code])
+    abbreviation = Abbreviation.find_by(code: params[:code].upcase)
     state = State.find(abbreviation.id)
     render json: state
   end
